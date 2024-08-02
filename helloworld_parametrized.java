@@ -1,9 +1,9 @@
-public class ParameterizedHelloWorld {
-    public static void main(String[] args) {
-        if (args.length > 0) {
-            System.out.println("Hello, " + args[0] + "!");
-        } else {
-            System.out.println("Parmeet Bhatti");
-        }
-    }
+public class Main {
+  static void myMethod(String fname) {
+    System.out.println(fname + " Bhatti ");
+  }
+
+  public static void main(String[] args) {
+    myMethod("Parmeet");
+  }
 }
